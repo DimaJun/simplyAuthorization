@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second page</title>
+<link href="styles/second.css" rel="stylesheet"></head> 
+<body>
+    <div class="wrapper d-flex">
+        <div class="authorization d-flex">
+            <p id="server-message"></p>
+            <form id="authorizationForm" class="authorization-form d-flex">
+                <h1 class="form__title">Login</h1>
+                <input type="text" placeholder="Username" id="usernameInput" class="authorization-form__input" />
+                <p id="usernameError"></p>
+                <input type="password" placeholder="Password" id="passwordInput" class="authorization-form__input" />
+                <p id="passwordError"></p>
+                <button type="submit" class="authorization-form__submit-button" id="submitButton">Send</button>
+            </form>
+        </div>
+        <a href="index.html">Not registered?</a>
+    </div>
+<script defer src="js/second.js"></script></body>
+</html>

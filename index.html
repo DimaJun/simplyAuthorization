@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <title>Main</title>
+<link href="styles/index.css" rel="stylesheet"></head>
+<body>
+    <div class="wrapper d-flex">
+        <div class="registration d-flex">
+            <p id="server-message"></p>
+            <form id="registrationForm" class="registration-form d-flex">
+                <h1 class="form__title">Registration</h1>
+                <input type="text" placeholder="Username" id="usernameInput" class="registration-form__input" />
+                <p id="usernameError"></p>
+                <input type="password" placeholder="Password" id="passwordInput" class="registration-form__input" />
+                <p id="passwordError"></p>
+                <button type="submit" class="registration-form__submit-button" id="submitButton">Send</button>
+            </form>
+        </div>
+        <a href="second.html" class="login-page__link">Already have an account?</a>
+    </div>
+<script defer src="js/index.js"></script></body>
+</html>
